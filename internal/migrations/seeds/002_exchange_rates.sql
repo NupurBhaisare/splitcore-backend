@@ -1,0 +1,25 @@
+-- Seed: Default exchange rates (USD as base currency)
+
+INSERT OR REPLACE INTO exchange_rates (id, from_currency, to_currency, rate, fetched_at) VALUES
+    (lower(hex(randomblob(8))), 'USD', 'USD', 1.0, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'EUR', 0.92, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'GBP', 0.79, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'JPY', 149.50, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'CAD', 1.36, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'AUD', 1.53, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'CHF', 0.88, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'CNY', 7.24, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'INR', 83.12, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'MXN', 17.15, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'BRL', 4.97, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'KRW', 1328.50, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'SGD', 1.34, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'HKD', 7.82, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'NOK', 10.72, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'SEK', 10.45, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'DKK', 6.87, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'NZD', 1.64, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'ZAR', 18.65, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'USD', 'THB', 35.50, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'EUR', 'USD', 1.087, CURRENT_TIMESTAMP),
+    (lower(hex(randomblob(8))), 'GBP', 'USD', 1.266, CURRENT_TIMESTAMP);

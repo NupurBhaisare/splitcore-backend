@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/nupurbhaisare/splitcore-backend/pkg/utils"
+	"github.com/splitcore/backend/pkg/utils"
 )
 
 type contextKey string

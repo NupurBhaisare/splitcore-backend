@@ -1,4 +1,4 @@
-module github.com/nupurbhaisare/splitcore-backend
+module github.com/splitcore/backend
 
 go 1.22
 

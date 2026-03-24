@@ -3,7 +3,7 @@ package migrations
 import (
 	"log"
 
-	"github.com/nupurbhaisare/splitcore-backend/internal/database"
+	"github.com/splitcore/backend/internal/database"
 )
 
 func RunAll() error {

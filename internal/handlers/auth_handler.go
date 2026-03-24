@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/nupurbhaisare/splitcore-backend/internal/services"
-	"github.com/nupurbhaisare/splitcore-backend/pkg/utils"
+	"github.com/splitcore/backend/internal/services"
+	"github.com/splitcore/backend/pkg/utils"
 )
 
 type AuthHandler struct {

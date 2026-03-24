@@ -8,9 +8,9 @@ import (
 	"syscall"
 
 	"github.com/joho/godotenv"
-	"github.com/nupurbhaisare/splitcore-backend/internal/database"
-	"github.com/nupurbhaisare/splitcore-backend/internal/migrations"
-	"github.com/nupurbhaisare/splitcore-backend/internal/routes"
+	"github.com/splitcore/backend/internal/database"
+	"github.com/splitcore/backend/internal/migrations"
+	"github.com/splitcore/backend/internal/routes"
 )
 
 func main() {

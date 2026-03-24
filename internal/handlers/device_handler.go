@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/nupurbhaisare/splitcore-backend/internal/middleware"
-	"github.com/nupurbhaisare/splitcore-backend/internal/services"
-	"github.com/nupurbhaisare/splitcore-backend/pkg/utils"
+	"github.com/splitcore/backend/internal/middleware"
+	"github.com/splitcore/backend/internal/services"
+	"github.com/splitcore/backend/pkg/utils"
 )
 
 type DeviceHandler struct {

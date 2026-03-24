@@ -3,8 +3,8 @@ package services
 import (
 	"sort"
 
-	"github.com/nupurbhaisare/splitcore-backend/internal/database"
-	"github.com/nupurbhaisare/splitcore-backend/internal/models"
+	"github.com/splitcore/backend/internal/database"
+	"github.com/splitcore/backend/internal/models"
 )
 
 // DebtService handles debt simplification.

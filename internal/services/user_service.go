@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/nupurbhaisare/splitcore-backend/internal/database"
-	"github.com/nupurbhaisare/splitcore-backend/internal/models"
-	"github.com/nupurbhaisare/splitcore-backend/pkg/utils"
+	"github.com/splitcore/backend/internal/database"
+	"github.com/splitcore/backend/internal/models"
+	"github.com/splitcore/backend/pkg/utils"
 )
 
 type UserService struct{}

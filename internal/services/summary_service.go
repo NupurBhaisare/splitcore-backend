@@ -3,8 +3,8 @@ package services
 import (
 	"fmt"
 
-	"github.com/nupurbhaisare/splitcore-backend/internal/database"
-	"github.com/nupurbhaisare/splitcore-backend/internal/models"
+	"github.com/splitcore/backend/internal/database"
+	"github.com/splitcore/backend/internal/models"
 )
 
 // SummaryService handles monthly summary calculations.

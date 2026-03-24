@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/nupurbhaisare/splitcore-backend/internal/handlers"
-	"github.com/nupurbhaisare/splitcore-backend/internal/middleware"
+	"github.com/splitcore/backend/internal/handlers"
+	"github.com/splitcore/backend/internal/middleware"
 )
 
 func NewRouter() *mux.Router {

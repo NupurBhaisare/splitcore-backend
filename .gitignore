@@ -1,0 +1,28 @@
+# Environment
+.env
+.env.local
+.env.production
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+splitcore-server
+*.test
+*.out
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Go workspace
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
